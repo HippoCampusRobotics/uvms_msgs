@@ -27,18 +27,17 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(hippo_msgs REQUIRED)
+find_package(hippo_control_msgs REQUIRED)
 find_package(alpha_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
-        "msg/TaskPriorityDebug.msg"
-        "msg/UVMSControlTarget.msg"
-        "msg/ControlTargetPrediction.msg"
-        DEPENDENCIES
-        std_msgs
-        hippo_msgs
-        alpha_msgs
-        )
-
+  "msg/TaskPriorityDebug.msg"
+  "msg/UVMSControlTarget.msg"
+  "msg/ControlTargetPrediction.msg"
+  DEPENDENCIES
+  std_msgs
+  hippo_control_msgs
+  alpha_msgs
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

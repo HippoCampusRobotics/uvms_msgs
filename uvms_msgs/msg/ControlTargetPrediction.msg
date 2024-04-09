@@ -1,4 +1,0 @@
-std_msgs/Header header
-hippo_msgs/ControlTarget target
-hippo_msgs/ControlTarget target_forward
-float64 dt
