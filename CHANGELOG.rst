@@ -2,8 +2,8 @@
 Changelog for package uvms_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2024-07-17)
+------------------
 * added license
 * Contributors: Thies Lennart Alff
 
