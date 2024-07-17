@@ -3,9 +3,9 @@
 <package format="3">
   <name>uvms_msgs</name>
   <version>0.0.1</version>
-  <description>TODO: Package description</description>
+  <description>Messages for the underwater manipulator system</description>
   <maintainer email="niklast@todo.todo">niklast</maintainer>
-  <license>TODO: License declaration</license>
+  <license>GPLv2</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
@@ -16,8 +16,6 @@
   <depend>hippo_control_msgs</depend>
   <depend>alpha_msgs</depend>
 
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
   <member_of_group>rosidl_interface_packages</member_of_group>
 
   <export>
